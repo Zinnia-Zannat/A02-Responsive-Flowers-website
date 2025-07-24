@@ -7,26 +7,82 @@
     <title>assignment 02</title>
     <link rel="stylesheet" href="styles/assignment02.css">
 </head>
-<body class="bg-[#dfe8f6]">
+<body class="bg-[#dfe8f6] ">
     <header>
-        <nav class="flex mx-20 my-5  justify-between items-center">
+        <nav class="flex mx-20 my-5  justify-between items-center ">
             <img src="assets/logo.png" alt="">
             <ul class="flex justify-between items-center gap-4">
-                <li><a class="text-[#252432]" href="https://www.google.com/">Home</a></li>
-                <li><a class="text-[#8987A1]" href="https://www.google.com/">Shop</a></li>
-                <li><a class="text-[#8987A1]" href="https://www.google.com/">About Us</a></li>
-                <li><a href="https://www.google.com/"><img class="inline m-2" src="assets/shopping-cart.png" alt="">Cart ($56)</a></li>
+                <li><a class="text-[#252432] max-sm:invisible" href="https://www.google.com/">Home</a></li>
+                <li><a class="text-[#8987A1] max-sm:invisible" href="https://www.google.com/">Shop</a></li>
+                <li><a class="text-[#8987A1] max-sm:invisible" href="https://www.google.com/">About Us</a></li>
+                <li class="max-sm:w-40"><a href="https://www.google.com/"><img class="inline m-2 max-sm:" src="assets/shopping-cart.png" alt="">Cart ($56)</a></li>
             </ul>
         </nav>
-        <div class="flex items-end justify-center gap-19 my-20 mx-20 ">
-            <div>
-                <h1 class="noto-serif-font text-[65px] mb-10">ALWAYS <span class="text-[#E95A08]">FRESH<br>FLOWERS</span></h1>
-                <p class="inter-font text-[22px] text-gray-400">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+        <div class="flex items-end justify-center gap-19 my-20 mx-20 max-sm:flex-wrap-reverse max-sm:mx-5">
+            <div class="max-sm:block max-sm:mt-100">
+                <h1 class="noto-serif-font text-[65px] max-sm:text-[24px]">ALWAYS <span class="text-[#E95A08]">FRESH<br>FLOWERS</span></h1>
+                <p class="inter-font text-[22px] text-[#8987A1] max-sm:text-[14px]">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
             </div>
-            <img src="assets/hero-flower.png" alt="">
+            <img class="max-sm:absolute" src="assets/hero-flower.png" alt="">
         </div>
     </header>
     <main>
+        <section>
+            <div>
+                <h1 class="noto-serif-font text-[50px] text-center max-sm:text-[24px]"><span class="text-[#E95A08]">Our</span> Plants</h1>
+                <p class="inter-font text-[22px] text-center text-gray-400 mt-10 max-sm:text-[14px] max-sm:mt-3">Indulge your senses with the beauty and fragrance of our fresh flower shop. From <br> classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+            </div>
+            <div class="grid grid-cols-4 gap-4 mx-20 my-10 max-sm:grid-cols-2 max-sm:m-5">
+                <div>
+                    <img class="w-full" src="assets/sample-flower-image.png" alt="">
+                    <h4 class="text-center text-[22px] font-medium">Lily Blossom</h4>
+                    <h3 class="text-center text-[22px] font-bold">20 USD</h3>
+                    <button class="rounded-none bg-[#E95A08] text-center w-full text-[#FFFFFF] text-base p-[10px]">ADD TO CART</button>
+                </div>
+                <div>
+                    <img class="w-full" src="assets/sample-flower-image.png" alt="">
+                    <h4 class="text-center text-[22px] font-medium">Lily Blossom</h4>
+                    <h3 class="text-center text-[22px]font-bold">20 USD</h3>
+                    <button class="rounded-none bg-[#E95A08] text-center w-full text-[#FFFFFF] text-base p-[10px]">ADD TO CART</button>
+                </div>
+                <div>
+                    <img class="w-full" src="assets/sample-flower-image.png" alt="">
+                    <h4 class="text-center text-[22px] font-medium">Lily Blossom</h4>
+                    <h3 class="text-center text-[22px]font-bold">20 USD</h3>
+                    <button class="rounded-none bg-[#E95A08] text-center w-full text-[#FFFFFF] text-base p-[10px]">ADD TO CART</button>
+                </div>
+                <div>
+                    <img class="w-full" src="assets/sample-flower-image.png" alt="">
+                    <h4 class="text-center text-[22px] font-medium">Lily Blossom</h4>
+                    <h3 class="text-center text-[22px]font-bold">20 USD</h3>
+                    <button class="rounded-none bg-[#E95A08] text-center w-full text-[#FFFFFF] text-base p-[10px]">ADD TO CART</button>
+                </div>
+                <div>
+                    <img class="w-full" src="assets/sample-flower-image.png" alt="">
+                    <h4 class="text-center text-[22px] font-medium">Lily Blossom</h4>
+                    <h3 class="text-center text-[22px]font-bold">20 USD</h3>
+                    <button class="rounded-none bg-[#E95A08] text-center w-full text-[#FFFFFF] text-base p-[10px]">ADD TO CART</button>
+                </div>
+                <div>
+                    <img class="w-full" src="assets/sample-flower-image.png" alt="">
+                    <h4 class="text-center text-[22px] font-medium">Lily Blossom</h4>
+                    <h3 class="text-center text-[22px]font-bold">20 USD</h3>
+                    <button class="rounded-none bg-[#E95A08] text-center w-full text-[#FFFFFF] text-base p-[10px]">ADD TO CART</button>
+                </div>
+                <div>
+                    <img class="w-full" src="assets/sample-flower-image.png" alt="">
+                    <h4 class="text-center text-[22px] font-medium">Lily Blossom</h4>
+                    <h3 class="text-center text-[22px]font-bold">20 USD</h3>
+                    <button class="rounded-none bg-[#E95A08] text-center w-full text-[#FFFFFF] text-base p-[10px]">ADD TO CART</button>
+                </div>
+                <div>
+                    <img class="w-full" src="assets/sample-flower-image.png" alt="">
+                    <h4 class="text-center text-[22px]font-medium">Lily Blossom</h4>
+                    <h3 class="text-center text-[22px]font-bold">20 USD</h3>
+                    <button class="rounded-none bg-[#E95A08] text-center w-full text-[#FFFFFF] text-base p-[10px]">ADD TO CART</button>
+                </div>
+            </div>
+        </section>
         
     </main>
     <footer>
